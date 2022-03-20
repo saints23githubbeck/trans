@@ -14,13 +14,12 @@
 
     }
  .container .overlay{
-     height: 620px;
+     /* height: 620px; */
      width: 600px;
      position: absolute;
      align-items: center;
      /* z-index: -1; */
      margin-left: -15px;  
-     /* background: linear-gradient(rgba(0,0,0,0.5),#009688),url("images/woman.jpg") no-repeat center; */
  
 
  }
@@ -33,7 +32,7 @@
       width: 500px;
       margin-top: -30px;
       overflow-y: hidden;
-      height: 100vh;
+      /* height: 100vh; */
   }
   form .pink {
     margin-left: 20px;
@@ -101,12 +100,15 @@ ul li {
         margin-left: 20px;
         margin-top: 20px;
     }
-    /* .text button:hover{
+    .navbar{
+        margin-top: -20px;
+    }
+    .text button:hover{
         color: #000;
         background-color: #fff;
         z-index: 1000;
         cursor: pointer;
-    } */
+    }
     a:hover{
         text-decoration: none;
         color: #fff;
@@ -116,6 +118,7 @@ ul li {
         color: #000;
         margin-left: 550px;
         margin-bottom: 60px;
+        margin-top: -20px;
         /* padding-left: 20px; */
     }
     #right ul li{
@@ -231,7 +234,7 @@ ul li {
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
     max-width: 100%;
-    /* z-index: -1; */
+    /* z-index: 1000; */
 
 }
 .flex{
