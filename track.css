@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+
 }
 .container{
     display: flex;
@@ -13,7 +19,7 @@
 
 }
 .pink{
-    color: purple;
+    color: rgb(177, 3, 177);
 }
 .left{
     background-color: #08012b;
@@ -60,6 +66,20 @@
 }
 .right button{
     margin-top: 40px;
+    background-color: purple;
+    color: #fff;
+}
+.right button:hover{
+    background-color: rgb(185, 8, 185);
 }
 
-
+.right .check{
+    display: flex;
+    justify-content: space-between;
+}
+.check #check1{
+    margin-top: 6px;
+}
+.check #check2{
+    margin-top: 6px;
+}
